@@ -1,0 +1,14 @@
+.nav-title {
+    color: #548df7 !important;
+    font-size: 22px !important;
+}
+.nav-website {
+    margin: 5px 10px !important;
+}
+.panel-body > a > button {
+    border: none;
+    transition: all .4s;
+}
+.panel-heading {
+    border-bottom: 1px solid #949596;
+}

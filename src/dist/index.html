@@ -1,0 +1,967 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- fav icon -->
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+    <!-- website title -->
+    <title>DEVO | Creative Agency</title>
+    <!-- bootstrap css stylesheet -->
+    <link rel="stylesheet" href="../CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="../CSS/bootstrap-theme.min.css">
+    <!-- swiper slider css stylesheet -->
+    <link rel="stylesheet" href="../CSS/swiper.min.css">
+    <!-- fontawesome icons -->
+    <link rel="stylesheet" href="../CSS/font-awesome.css">
+    <!-- Magnific popup library -->
+    <link rel="stylesheet" href="../CSS/magnific-popup.css">
+    <!-- global css file -->
+    <link rel="stylesheet" href="../CSS/global.css">
+    <!-- custom css stylesheet -->
+    <link rel="stylesheet" href="../CSS/custom.css">
+    <link rel="stylesheet" href="../CSS/head-tail-style.css">
+</head>
+
+<body>
+
+    <!-- loader
+    <div id="loader">
+        <div id="wrapper">
+            <div class="profile-main-loader">
+                <div class="loader">
+                    <svg class="circular-loader" viewBox="25 25 50 50">
+                        <circle class="loader-path" cx="50" cy="50" r="20" fill="none" stroke="#70c542" stroke-width="2" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- navbar -->
+    <nav id="nav">
+        <div class="container">
+            <div class="top-info" id="top-menu">
+                <div class="info">
+                    <div class="part first-p">
+                        <p>智能与网络化中心实验室</p>
+                    </div>
+                    <span>|</span>
+                    <div class="part">
+                        <p>www.cinslab.com</p>
+                    </div>
+                    <span>|</span>
+                    <div class="part">
+                        <p>cins.swpu.edu.cn</p>
+                    </div>
+                    <!-- 被隐藏，登录按钮 -->
+                    <div id="social-media">
+                        <a href="">
+                            <i class="fa fa-frown-o" aria-hidden="true"></i>
+                        </a>
+                        <!-- <a href="">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a> -->
+                    </div>
+                    <div id="load_state">
+                        <!-- 用户头像 -->
+                        <img src="../images/child-1.jpg" alt="user" />
+                        <div id="username">User
+                            <i class="fa  fa-caret-down" aria-hidden="true"></i>
+                        </div>
+                        <ul class="user_list">
+                            <li class="self-manage">
+                                <a href="">个人信息
+                                    <i class="fa fa-align-right"></i>
+                                </a>
+                            </li>
+                            <li class="self-manage">
+                                <a href="">发表blog
+                                    <i class="fa fa-pencil-square-o"></i>
+                                </a>
+                            </li>
+                            <li class="self-manage">
+                                <a href="">图书管理
+                                    <i class="fa fa-book"></i>
+                                </a>
+                            </li>
+                            <li class="self-manage">
+                                <a href="">课程
+                                    <i class="fa fa-mortar-board"></i>
+                                </a>
+                            </li>
+                            <li class="self-manage">
+                                <a href="">退出
+                                    <i class="fa fa-power-off"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="main-menu">
+                <a href="index.html">
+                    <img src="../images/logo.png" alt="devo">
+                </a>
+
+                <!-- bars icon -->
+                <i class="fa fa-bars" aria-hidden="true" id="bars"></i>
+
+                <!-- search icon -->
+                <i class="fa fa-search" aria-hidden="true" id="search-icon">
+                    <div id="search_box">
+                        <input type="text" placeholder="search"><div id="go">GO</div>
+                    </div>
+                </i>
+
+
+                <!-- social media links -->
+
+                <ul id="menu">
+                    <li class="active">
+                        <a href="index.html">首页</a>
+                    </li>
+                    <li class="drop-down">
+                        <a>实验室介绍</a>
+                        <ul class="drop-menu">
+                            <li>
+                                <a href="single-blog.html">师资力量</a>
+                            </li>
+                            <li>
+                                <a href="single-blog.html">硕士研究生</a>
+                            </li>
+                            <li>
+                                <a href="single-blog.html">本科生</a>
+                            </li>
+                            <li>
+                                <a href="single-blog.html">相关介绍</a>
+                            </li>
+                            <li>
+                                <a href="single-blog.html">荣誉榜</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="https://devo.000webhostapp.com/services.html">项目课题</a>
+                    </li>
+
+                    <li>
+                        <a href="portfolio.html">人员信息</a>
+                    </li>
+                    <li class="drop-down">
+                        <a>信息发布</a>
+                        <ul class="drop-menu">
+                            <li>
+                                <a href="single-blog.html">实验室新闻</a>
+                            </li>
+                            <li>
+                                <a href="404.html">交流活动</a>
+                            </li>
+                            <li>
+                                <a href="404.html">讲座信息</a>
+                            </li>
+                            <li>
+                                <a href="404.html">娱乐活动</a>
+                            </li>
+                            <li>
+                                <a href="404.html">院校新闻</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="drop-down">
+                        <a>科学研究</a>
+                        <ul class="drop-menu">
+                            <li>
+                                <a href="single-blog.html">专题报告</a>
+                            </li>
+                            <li>
+                                <a href="404.html">小组讨论会</a>
+                            </li>
+                            <li>
+                                <a href="404.html">发表论文</a>
+                            </li>
+                            <li>
+                                <a href="404.html">研究领域资料</a>
+                            </li>
+                            <li>
+                                <a href="404.html">学术会议网站</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="blog.html">blog</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">联系我们</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- header -->
+    <header>
+        <!-- Slider main container -->
+        <div class="swiper-container" id="home_slider">
+            <div class="swiper-wrapper">
+                <!-- slides -->
+                <div class="swiper-slide" id="slide1">
+                    <div class="container">
+                        <div class="content">
+                            <h1 class="intro">we are
+                                <span>CINSer</span>
+                            </h1>
+                            <p class="quote">creativity is the way we share our ambitions with the world</p>
+                            <div class="buttons">
+                                <a href="about.html" class="know-more">know more</a>
+                                <a href="contact.html" class="get-in-touch">get in touch</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide" id="slide2">
+                    <div class="container">
+                        <div class="content">
+                            <h1 class="intro">we are
+                                <span>creative</span>
+                            </h1>
+                            <p class="quote">we are doing our best to provide high quality services for you</p>
+                            <div class="buttons">
+                                <a class="know-more" href="about.html">know more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide" id="slide3">
+                    <div class="container">
+                        <div class="content">
+                            <h1 class="intro bolded">let us do your work</h1>
+                            <p class="quote">graphic design &amp; web design &amp; photography &amp; marketing &amp; more</p>
+                            <div class="buttons">
+                                <a class="get-in-touch" href="contact.html">get in touch</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- pagination -->
+            <div class="swiper-pagination">
+            </div>
+
+            <!-- buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </header>
+
+    <!-- about section -->
+    <section id="about">
+        <div class="container">
+            <h2 class="section-header">we are CINSer</h2>
+            <div class="row">
+                <div class="col-md-6 left">
+                    <div class="part">
+                        <h4>关于我们</h4>
+                        <p>该中心成立于2011年7月，依托西南石油大学计算机科学学院，主要从事网络科学、机器学习、大数据下的网络挖掘、中文自然语言处理等交叉学科的应用基础研究
+                        </p>
+                    </div>
+                    <div class="part">
+                        <h4>cinser成就</h4>
+                        <p>承担了包括国家自然科学基金在内的研究项目，在权威国际期刊上发表多篇SCI论文。中心职员由具有相当科研经验的青年教师和充满朝气、思维活跃的多位研究生组成。
+                        </p>
+                    </div>
+                    <div class="part">
+                        <h4>实验室环境</h4>
+                        <p>中心拥有100平方的独立实验室，2台高性能服务器，以及多台PC机，具有良好的科学研究环境。
+                        </p>
+                    </div>
+                </div>
+                <div class="right col-md-6">
+                    <img src="../images/about.png" alt="devo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- team section -->
+    <section id="team">
+        <div class="container">
+            <h2 class="section-header">our professional teacher</h2>
+            <div class="row">
+                <div class="swiper-container" id="team_slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide member-o">
+                            <div class="member">
+                                <img src="../images/chenyan.jpg" alt="jhon">
+                                <div class="social-media">
+                                    <a href="index.html">
+                                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                                    </a>
+                                    <a href="index.html">
+                                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                                    </a>
+                                    <a href="index.html">
+                                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                                    </a>
+                                </div>
+                                <div class="info">
+                                    <p class="name">陈雁</p>
+                                    <p class="job">副教授</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide member-o">
+                            <div class="member">
+                                <img src="../images/lping.jpg" alt="jhon">
+                                <div class="social-media">
+                                    <a href="index.html">
+                                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                                    </a>
+                                    <a href="index.html">
+                                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                                    </a>
+                                    <a href="index.html">
+                                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                                    </a>
+                                </div>
+                                <div class="info">
+                                    <p class="name">李平</p>
+                                    <p class="job">副教授</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide member-o">
+                            <div class="member">
+                                <img src="../images/zhenjin.jpg" alt="jhon">
+                                <div class="social-media">
+                                    <a href="index.html">
+                                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                                    </a>
+                                    <a href="index.html">
+                                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                                    </a>
+                                    <a href="index.html">
+                                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                                    </a>
+                                </div>
+                                <div class="info">
+                                    <p class="name">郑津</p>
+                                    <p class="job">图像识别</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide member-o">
+                            <div class="member">
+                                <img src="../images/member4.png" alt="jhon">
+                                <div class="social-media">
+                                    <a href="index.html">
+                                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                                    </a>
+                                    <a href="index.html">
+                                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                                    </a>
+                                    <a href="index.html">
+                                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                                    </a>
+                                </div>
+                                <div class="info">
+                                    <p class="name">jhon doe</p>
+                                    <p class="job">graphic designer nlp 自然语言处理</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide member-o">
+                            <div class="member">
+                                <img src="../images/member5.png" alt="jhon">
+                                <div class="social-media">
+                                    <a href="index.html">
+                                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                                    </a>
+                                    <a href="index.html">
+                                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                                    </a>
+                                    <a href="index.html">
+                                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                                    </a>
+                                </div>
+                                <div class="info">
+                                    <p class="name">jhon doe</p>
+                                    <p class="job">graphic designer nlp 自然语言处理 </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- services section -->
+    <section id="services">
+        <div class="container">
+            <h2 class="section-header">CINS PROJECT</h2>
+            <div class="row">
+                <div class="service-o col-md-4">
+                    <div class="service">
+                        <img src="../images/graphic-icon.png" alt="">
+                        <h4>
+                            <a href="">实验室项目课题1</a>
+                        </h4>
+                        <p>Quisque viverra accumsan urna fermentum elementum. Etiam vitae elit at nulla egestas efficitur sit
+                            amet eu leo.</p>
+                        <div class="details">
+                            <a href="">详细信息</a>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+                <div class="service-o col-md-4">
+                    <div class="service">
+                        <img src="../images/web-icon.png" alt="">
+                        <h4>
+                            <a href="">实验室项目课题2</a>
+                        </h4>
+                        <p>Quisque viverra accumsan urna fermentum elementum. Etiam vitae elit at nulla egestas efficitur sit
+                            amet eu leo.</p>
+                        <div class="details">
+                            <a href="">详细信息</a>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+                <div class="service-o col-md-4">
+                    <div class="service">
+                        <img src="../images/photography-icon.png" alt="">
+                        <h4>
+                            <a href="">实验室项目课题3</a>
+                        </h4>
+                        <p>Quisque viverra accumsan urna fermentum elementum. Etiam vitae elit at nulla egestas efficitur sit
+                            amet eu leo.</p>
+                        <div class="details">
+                            <a href="">详细信息</a>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="service-o col-md-4">
+                    <div class="service">
+                        <img src="../images/marketing-icon.png" alt="">
+                        <h4>
+                            <a href="">实验室项目课题4</a>
+                        </h4>
+                        <p>Quisque viverra accumsan urna fermentum elementum. Etiam vitae elit at nulla egestas efficitur sit
+                            amet eu leo.</p>
+                        <div class="details">
+                            <a href="">详细信息</a>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+                <div class="service-o col-md-4">
+                    <div class="service">
+                        <img src="../images/seo-icon.png" alt="">
+                        <h4>
+                            <a href="">实验室项目课题5</a>
+                        </h4>
+                        <p>Quisque viverra accumsan urna fermentum elementum. Etiam vitae elit at nulla egestas efficitur sit
+                            amet eu leo.</p>
+                        <div class="details">
+                            <a href="">详细信息</a>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+                <div class="service-o col-md-4">
+                    <div class="service">
+                        <img src="../images/support-icon.png" alt="">
+                        <h4>
+                            <a href="">实验室项目课题6</a>
+                        </h4>
+                        <p>Quisque viverra accumsan urna fermentum elementum. Etiam vitae elit at nulla egestas efficitur sit
+                            amet eu leo.</p>
+                        <div class="details">
+                            <a href="">详细信息</a>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="see-more">
+            <a href="portfolio.html">see more</a>
+        </div>
+
+    </section>
+
+    <!-- statistics -->
+    <div id="statistics">
+
+        <!-- projects done -->
+        <div class="col-md-3 count-o" id="count-1">
+            <div class="count">
+                <img src="../images/projects-icon.png" alt="projects">
+                <h4>完成的项目</h4>
+                <p id="counter-1">1000</p>
+            </div>
+        </div>
+
+        <!-- projects done -->
+        <div class="col-md-3 count-o" id="count-2">
+            <div class="count">
+                <img src="../images/code-icon.png" alt="projects">
+                <h4>发表专利/论文</h4>
+                <p id="counter-2">1000</p>
+            </div>
+        </div>
+
+        <!--  satisfied customers -->
+        <div class="col-md-3 count-o" id="count-3">
+            <div class="count">
+                <img src="../images/satisfied-icon.png" alt="projects">
+                <h4>实验室人员</h4>
+                <p id="counter-3">1000</p>
+            </div>
+        </div>
+
+        <!--  satisfied customers -->
+        <div class="col-md-3 count-o" id="count-4">
+            <div class="count">
+                <img src="../images/cups-icon.png" alt="projects">
+                <h4>发布博客</h4>
+                <p id="counter-4">5000</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- portfolio section -->
+    <section id="portfolio">
+        <div class="container">
+            <h2 class="section-header">CINS动态</h2>
+
+            <!-- buttons -->
+            <div class="buttons" data-toggle="buttons">
+                <button class="active filter" data-filter="all">all</button>
+                <button class="filter" data-filter=".web">seminar</button>
+                <button class="filter" data-filter=".graphic">交流活动</button>
+                <button class="filter" data-filter=".photography">日常活动</button>
+            </div>
+
+            <!-- portfolio items -->
+            <div id="items-container">
+
+                <!-- item 1 -->
+                <div class="item-o col-md-4 graphic mix col-sm-6">
+                    <div class="item">
+                        <img src="../images/1.jpg" alt="">
+                        <div class="over">
+                            <div class="details">
+                                <h4>project name</h4>
+                                <p>graphic design</p>
+                            </div>
+                            <a href="index.html#popup1" class="popup-link">
+                                <i class="fa fa-search" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- popup 1 -->
+
+                <div id="popup1" class="white-popup mfp-hide">
+                    <h3>project title</h3>
+                    <h5>category</h5>
+                    <img src="../images/1.jpg" alt="p1">
+                    <p class="desc">You may put any HTML here. This is dummy copy. It is not meant to be read. Proactively maximize transparent
+                        e-commerce before fully tested niche markets. Efficiently innovate stand-alone markets with open-source
+                        interfaces. Compellingly simplify multifunctional intellectual capital and backward-compatible "outside
+                        the box"
+                    </p>
+                </div>
+
+                <!-- item 2 -->
+                <div class="item-o col-md-4 photography mix col-sm-6">
+                    <div class="item">
+                        <img src="../images/2.jpg" alt="">
+                        <div class="over">
+                            <div class="details">
+                                <h4>project name</h4>
+                                <p>photography</p>
+                            </div>
+                            <a href="index.html#popup2" class="popup-link">
+                                <i class="fa fa-search" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- popup 2 -->
+
+                <div id="popup2" class="white-popup mfp-hide">
+                    <h3>project title</h3>
+                    <h5>category</h5>
+                    <img src="../images/2.jpg" alt="p1">
+                    <p class="desc">You may put any HTML here. This is dummy copy. It is not meant to be read. Proactively maximize transparent
+                        e-commerce before fully tested niche markets. Efficiently innovate stand-alone markets with open-source
+                        interfaces. Compellingly simplify multifunctional intellectual capital and backward-compatible "outside
+                        the box"
+                    </p>
+                </div>
+
+                <!-- item 3 -->
+                <div class="item-o col-md-4 graphic mix col-sm-6">
+                    <div class="item">
+                        <img src="../images/3.jpg" alt="">
+                        <div class="over">
+                            <div class="details">
+                                <h4>project name</h4>
+                                <p>graphic design</p>
+                            </div>
+                            <a href="index.html#popup3" class="popup-link">
+                                <i class="fa fa-search" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- popup 3 -->
+
+                <div id="popup3" class="white-popup mfp-hide">
+                    <h3>project title</h3>
+                    <h5>category</h5>
+                    <img src="../images/3.jpg" alt="p1">
+                    <p class="desc">You may put any HTML here. This is dummy copy. It is not meant to be read. Proactively maximize transparent
+                        e-commerce before fully tested niche markets. Efficiently innovate stand-alone markets with open-source
+                        interfaces. Compellingly simplify multifunctional intellectual capital and backward-compatible "outside
+                        the box"
+                    </p>
+                </div>
+
+                <!-- item 4 -->
+                <div class="item-o col-md-4 web mix col-sm-6">
+                    <div class="item">
+                        <img src="../images/4.jpg" alt="">
+                        <div class="over">
+                            <div class="details">
+                                <h4>project name</h4>
+                                <p>web design</p>
+                            </div>
+                            <a href="index.html#popup4" class="popup-link">
+                                <i class="fa fa-search" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- popup 4 -->
+
+                <div id="popup4" class="white-popup mfp-hide">
+                    <h3>project title</h3>
+                    <h5>category</h5>
+                    <img src="../images/4.jpg" alt="p1">
+                    <p class="desc">You may put any HTML here. This is dummy copy. It is not meant to be read. Proactively maximize transparent
+                        e-commerce before fully tested niche markets. Efficiently innovate stand-alone markets with open-source
+                        interfaces. Compellingly simplify multifunctional intellectual capital and backward-compatible "outside
+                        the box"
+                    </p>
+                </div>
+
+                <!-- item 5 -->
+                <div class="item-o col-md-4 photography mix col-sm-6">
+                    <div class="item">
+                        <img src="../images/5.jpg" alt="">
+                        <div class="over">
+                            <div class="details">
+                                <h4>project name</h4>
+                                <p>photography</p>
+                            </div>
+                            <a href="index.html#popup5" class="popup-link">
+                                <i class="fa fa-search" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- popup 5 -->
+
+                <div id="popup5" class="white-popup mfp-hide">
+                    <h3>project title</h3>
+                    <h5>category</h5>
+                    <img src="../images/5.jpg" alt="p1">
+                    <p class="desc">You may put any HTML here. This is dummy copy. It is not meant to be read. Proactively maximize transparent
+                        e-commerce before fully tested niche markets. Efficiently innovate stand-alone markets with open-source
+                        interfaces. Compellingly simplify multifunctional intellectual capital and backward-compatible "outside
+                        the box"
+                    </p>
+                </div>
+
+                <!-- item 6 -->
+                <div class="item-o col-md-4 web mix col-sm-6">
+                    <div class="item">
+                        <img src="../images/6.png" alt="">
+                        <div class="over">
+                            <div class="details">
+                                <h4>project name</h4>
+                                <p>web design</p>
+                            </div>
+                            <a href="index.html#popup6" class="popup-link">
+                                <i class="fa fa-search" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- popup 6 -->
+
+                <div id="popup6" class="white-popup mfp-hide">
+                    <h3>project title</h3>
+                    <h5>category</h5>
+                    <img src="../images/6.png" alt="p1">
+                    <p class="desc">You may put any HTML here. This is dummy copy. It is not meant to be read. Proactively maximize transparent
+                        e-commerce before fully tested niche markets. Efficiently innovate stand-alone markets with open-source
+                        interfaces. Compellingly simplify multifunctional intellectual capital and backward-compatible "outside
+                        the box"
+                    </p>
+                </div>
+
+            </div>
+            <div class="see-more">
+                <a href="portfolio.html">see more</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- testimonials -->
+    <section id="comments">
+        <div class="container">
+            <h2 class="section-header">实验室成员</h2>
+            <div class="swiper-container" id="comments_slider">
+                <div class="swiper-wrapper">
+                    <!-- comment 1 -->
+                    <div class="swiper-slide">
+                        <div class="comment-o">
+                            <img src="../images/member1.png" alt="1">
+                            <p class="comment">"You may put any HTML here. This is dummy copy. It is not meant to be read"</p>
+                            <h5>jhon doe</h5>
+                        </div>
+                    </div>
+                    <!-- comment 2 -->
+                    <div class="swiper-slide">
+                        <div class="comment-o">
+                            <img src="../images/member2.png" alt="1">
+                            <p class="comment">"You may put any HTML here. This is dummy copy. It is not meant to be read"</p>
+                            <h5>jhon doe</h5>
+                        </div>
+                    </div>
+                    <!-- comment 3 -->
+                    <div class="swiper-slide">
+                        <div class="comment-o">
+                            <img src="../images/member3.png" alt="1">
+                            <p class="comment">"You may put any HTML here. This is dummy copy. It is not meant to be read"</p>
+                            <h5>jhon doe</h5>
+                        </div>
+                    </div>
+                    <!-- comment 4 -->
+                    <div class="swiper-slide">
+                        <div class="comment-o">
+                            <img src="../images/member4.png" alt="1">
+                            <p class="comment">"You may put any HTML here. This is dummy copy. It is not meant to be read"</p>
+                            <h5>jhon doe</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 本科组 -->
+
+        </div>
+
+    </section>
+
+
+
+
+    <!-- choose-us section -->
+    <section id="choose-us">
+        <div class="row">
+            <div class="left col-md-6" id="left"></div>
+            <div class="right col-md-6" id="right">
+                <h2>欢迎加入我们CINS这个大家庭</h2>
+                <div class="part">
+                    <i class="fa fa-rocket" aria-hidden="true"></i>
+                    <h4>欢迎考研加入我们</h4>
+                    <p>欢迎考研加入我们</p>
+                </div>
+
+                <div class="part">
+                    <i class="fa fa-tasks" aria-hidden="true"></i>
+                    <h4>欢迎考研加入我们</h4>
+                    <p>You may put any HTML here. This is dummy copy. It is not meant to be read</p>
+                </div>
+
+                <div class="part last">
+                    <i class="fa fa-bolt" aria-hidden="true"></i>
+                    <h4>欢迎考研加入我们</h4>
+                    <p>You may put any HTML here. This is dummy copy. It is not meant to be read</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- blog section -->
+    <section id="blog">
+        <div class="container">
+            <h2 class="section-header">blogs</h2>
+            <div class="swiper-container" id="blog_slider">
+                <div class="swiper-wrapper">
+                    <!-- blog 1 -->
+                    <div class="swiper-slide blog">
+                        <div class="img">
+                            <img src="../images/slide1.png" alt="">
+                        </div>
+                        <div class="info">
+                            <a href="single-blog.html" class="heading">
+                                <h4>good ideas are our main purpose</h4>
+                            </a>
+                            <p>You may put any HTML here. This is dummy copy. It is not meant to be read ...</p>
+                            <a href="single-blog.html" class="read">read more</a>
+                        </div>
+                    </div>
+
+                    <!-- blog 2 -->
+                    <div class="swiper-slide blog">
+                        <div class="img">
+                            <img src="../images/slide2.png" alt="">
+                        </div>
+                        <div class="info">
+                            <a href="single-blog.html" class="heading">
+                                <h4>good ideas are our main purpose</h4>
+                            </a>
+                            <p>You may put any HTML here. This is dummy copy. It is not meant to be read ...</p>
+                            <a href="single-blog.html" class="read">read more</a>
+                        </div>
+                    </div>
+
+                    <!-- blog 3 -->
+                    <div class="swiper-slide blog">
+                        <div class="img">
+                            <img src="../images/slide3.png" alt="">
+                        </div>
+                        <div class="info">
+                            <a href="single-blog.html" class="heading">
+                                <h4>good ideas are our main purpose</h4>
+                            </a>
+                            <p>You may put any HTML here. This is dummy copy. It is not meant to be read ...</p>
+                            <a href="single-blog.html" class="read">read more</a>
+                        </div>
+                    </div>
+
+                    <!-- blog 4 -->
+                    <div class="swiper-slide blog">
+                        <div class="img">
+                            <img src="../images/about.png" alt="">
+                        </div>
+                        <div class="info">
+                            <a href="single-blog.html" class="heading">
+                                <h4>good ideas are our main purpose</h4>
+                            </a>
+                            <p>You may put any HTML here. This is dummy copy. It is not meant to be read ...</p>
+                            <a href="single-blog.html" class="read">read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="see-more">
+                <a href="portfolio.html">see more</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-5 overview">
+                    <img src="../images/logo.png" alt="">
+                    <p>数据驱动生活.
+                        <br> 大数据创新
+                    </p>
+                    <div id="footer_clear"></div>
+                </div>
+
+                <div class="contact col-md-4">
+                    <div class="part">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        <p>cinslab.com</p>
+                    </div>
+                    <div class="part">
+                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                        <p>pingkly@163.com</p>
+                    </div>
+                    <div class="part">
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        <p>西南石油大学(成都校区)明理楼C1101</p>
+                    </div>
+                </div>
+
+                <div class="social-media col-md-3">
+                    <h5>follow us</h5>
+                    <a href="index.html">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                    </a>
+                    <a href="index.html">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </a>
+                    <a href="index.html">
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                    </a>
+                    <a href="index.html">
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                    </a>
+                    <a href="index.html">
+                        <i class="fa fa-google-plus" aria-hidden="true"></i>
+                    </a>
+                    <a href="index.html">
+                        <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="copyrights">
+        <div class="container">
+            <p>copyrights reserved &copy; CINS 2017</p>
+        </div>
+    </div>
+    <!-- scripts -->
+    <!-- jquery script -->
+    <script src="../JS/jquery-3.2.1.min.js"></script>
+    <!-- swiper scripte -->
+    <script src="../JS/swiper.jquery.min.js"></script>
+    <!-- mixItUp script -->
+    <script src="../JS/jquery.mixitup.js"></script>
+    <!-- Magnific PopUp script -->
+    <script src="../JS/jquery.magnific-popup.min.js"></script>
+    <!-- count-to script -->
+    <script src="../JS/jquery.countTo.js"></script>
+    <!-- contact form js file -->
+    <script src="../JS/contact.js"></script>
+    <!-- global js file -->
+    <script src="../JS/global.js"></script>
+    <!-- home js file -->
+    <script src="../JS/home.js"></script>
+    <!-- head tail js file -->
+    <script src="../JS/menu_list.js"></script>
+</body>
+
+</html>

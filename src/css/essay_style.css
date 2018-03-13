@@ -1,0 +1,143 @@
+/* 内容块样式 */
+#page_content {
+    width: 78%;
+    margin: 150px auto 30px;
+}
+#page_content::after, .block_title::after {
+    content: ' ';
+    display: block;
+    clear: both;
+}
+
+/* 文章主体样式 */
+#essay_content {
+    width: 65%;
+    border: 1px solid #8a8989;
+    padding: 10px 20px 40px;
+    border-radius: 10px;
+    float: left;
+    margin: 0 30px;
+}
+#essay_content > h1 {
+    text-align: center;
+    padding: 10px 0;
+    color: #44b0e2;
+}
+#essay_from {
+    float: left;
+}
+#essay_date {
+    float: right;
+}
+#eassy_clear {
+    clear: both;
+}
+#reported {
+    width: 300px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    color: #817f7f;
+}
+#essay_text > p {
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #000000;
+    line-height: 1.8em;
+}
+
+/* 侧边栏样式 */
+#leftNav {
+    float: left;
+    width: 25%;
+    margin: 0 20px;
+    float: right;
+}
+.leftNav_block {
+    margin: 0 0 10px;
+}
+.block_title {
+    border-bottom: 2px solid #60c6f5;
+}
+.block_title > h3 {
+    display: inline-block;
+    background-color: #60c6f5;
+    color: #ffffff;
+    padding: 4px 8px 2px;
+    margin: 0;
+}
+.block_title > a {
+    float: right;
+    font-size: 1.2em;
+    line-height: 32px;
+    color: #44b0e2;
+}
+.leftNav_list {
+    padding: 15px;
+}
+.leftNav_li {
+    display: block;
+    padding: 5px 0;
+    line-height: 20px;
+}
+.leftNav_li > a {
+    display: inline-block;
+    overflow: hidden;
+    max-width: 95%;
+    font-size: 16px;
+    height: 20px;
+    position: relative;
+}
+.leftNav_li::after {
+    content: '...';
+    display: inline-block;
+    position: absolute;
+}
+.fa-caret-right {
+    color: #969494;
+    display: inline-block;
+    padding: 0 3px;
+}
+
+@media(max-width: 1300px) {
+     #leftNav {
+        display: none;
+    }
+    #essay_content {
+        width: 100%;
+        padding: 10px 30px;
+    }
+}
+
+@media( max-width: 1024px ) {
+    #page_content {
+        margin: 130px 0 30px;
+        width: 100%;
+    }
+    #leftNav {
+        display: none;
+    }
+    #essay_content {
+        width: 100%;
+        padding: 10px 30px;
+    }
+}
+
+@media( max-width: 768px ) {
+    #reported, #leftNav {
+        display: none;
+    }
+    #page_content {
+        margin: 80px 0 30px;
+    }
+    #essay_content {
+        width: 100%;
+        padding: 1px 1px;
+    }
+    #essay_content > h1 {
+        font-size: 2rem;
+    }
+    #essay_text {
+        padding: 1px 1px;
+    }
+}
+

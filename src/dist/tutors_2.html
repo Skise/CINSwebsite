@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html class="transition-navbar-scroll top-navbar-xlarge bottom-footer" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link rel="stylesheet" href="../CSS/all.css">
+    <link rel="stylesheet" href="../CSS/app.css">
+    <link rel="stylesheet" href="../CSS/custom.css">
+    <link rel="stylesheet" href="../CSS/head-tail-style.css">
+    <link rel="stylesheet" href="../CSS/tutors_style.css">
+</head>
+
+<body>
+
+    <!-- Fixed navbar -->
+    <nav id="nav">
+        <div class="container">
+            <div class="top-info" id="top-menu">
+                <div class="info">
+                    <div class="part first-p">
+                        <p>智能与网络化中心实验室</p>
+                    </div>
+                    <span>|</span>
+                    <div class="part">
+                        <p>www.cinslab.com</p>
+                    </div>
+                    <span>|</span>
+                    <div class="part">
+                        <p>cins.swpu.edu.cn</p>
+                    </div>
+                    <!-- 被隐藏，登录按钮 -->
+                    <div id="social-media">
+                        <a href="">
+                            <i class="fa fa-frown-o" aria-hidden="true"></i>
+                        </a>
+                        <!-- <a href="">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a> -->
+                    </div>
+                    <div id="load_state">
+                        <!-- 用户头像 -->
+                        <img src="../images/child-1.jpg" alt="user" />
+                        <div id="username">User
+                            <i class="fa  fa-caret-down" aria-hidden="true"></i>
+                        </div>
+                        <ul class="user_list">
+                            <li class="self-manage">
+                                <a href="">个人信息
+                                    <i class="fa fa-align-right"></i>
+                                </a>
+                            </li>
+                            <li class="self-manage">
+                                <a href="">发表blog
+                                    <i class="fa fa-pencil-square-o"></i>
+                                </a>
+                            </li>
+                            <li class="self-manage">
+                                <a href="">图书管理
+                                    <i class="fa fa-book"></i>
+                                </a>
+                            </li>
+                            <li class="self-manage">
+                                <a href="">课程
+                                    <i class="fa fa-mortar-board"></i>
+                                </a>
+                            </li>
+                            <li class="self-manage">
+                                <a href="">退出
+                                    <i class="fa fa-power-off"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="main-menu">
+                <a href="index.html">
+                    <img src="../images/logo.png" alt="devo">
+                </a>
+
+                <!-- bars icon -->
+                <i class="fa fa-bars" aria-hidden="true" id="bars"></i>
+
+                <!-- search icon -->
+                <i class="fa fa-search" aria-hidden="true" id="search-icon"></i>
+
+
+                <!-- social media links -->
+
+                <ul id="menu">
+                    <li class="active">
+                        <a href="index.html">首页</a>
+                    </li>
+                    <li class="drop-down">
+                        <a>实验室介绍</a>
+                        <ul class="drop-menu">
+                            <li>
+                                <a href="single-blog.html">师资力量</a>
+                            </li>
+                            <li>
+                                <a href="single-blog.html">硕士研究生</a>
+                            </li>
+                            <li>
+                                <a href="single-blog.html">本科生</a>
+                            </li>
+                            <li>
+                                <a href="single-blog.html">相关介绍</a>
+                            </li>
+                            <li>
+                                <a href="single-blog.html">荣誉榜</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="https://devo.000webhostapp.com/services.html">项目课题</a>
+                    </li>
+
+                    <li>
+                        <a href="portfolio.html">人员信息</a>
+                    </li>
+                    <li class="drop-down">
+                        <a>信息发布</a>
+                        <ul class="drop-menu">
+                            <li>
+                                <a href="single-blog.html">实验室新闻</a>
+                            </li>
+                            <li>
+                                <a href="404.html">交流活动</a>
+                            </li>
+                            <li>
+                                <a href="404.html">讲座信息</a>
+                            </li>
+                            <li>
+                                <a href="404.html">娱乐活动</a>
+                            </li>
+                            <li>
+                                <a href="404.html">院校新闻</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="drop-down">
+                        <a>科学研究</a>
+                        <ul class="drop-menu">
+                            <li>
+                                <a href="single-blog.html">专题报告</a>
+                            </li>
+                            <li>
+                                <a href="404.html">小组讨论会</a>
+                            </li>
+                            <li>
+                                <a href="404.html">发表论文</a>
+                            </li>
+                            <li>
+                                <a href="404.html">研究领域资料</a>
+                            </li>
+                            <li>
+                                <a href="404.html">学术会议网站</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="blog.html">blog</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">联系我们</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="search-box">
+        <input type="text" placeholder="Type and hit enter to search">
+    </div>
+
+    <!-- page body -->
+    <div class="parallax cover overlay height-300 height-500-lg height-320-xs">
+        <img class="parallax-layer" src="../images/photodune-6745585-modern-creative-workspace-m.jpg" alt="parallax image" />
+        <div class="parallax-layer overlay overlay-full" data-opacity="true">
+            <div class="v-center">
+                <div class="container">
+                    <h1 class="text-display-1 overlay-bg-white-strong display-inline-block">本科生介绍</h1>
+                    <p class="text-subhead overlay-bg-white-strong">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur debitis doloremque dolorum error
+                        excepturi illum ipsa ipsam modi.
+                        <span class="hidden-sm hidden-xs">Nesciunt nulla obcaecati porro quibusdam repellendus reprehenderit saepe sequi, velit veniam voluptates!</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="stu_grade"></div> -->
+
+    <div class="page-section">
+        <div class="container">
+            <div class="stu_grade">2015级</div>
+            <div class="row" data-toggle="isotope">
+
+                <div class="item col-xs-12 col-sm-6 col-lg-4">
+                    <div class="panel panel-default paper-shadow" data-z="0.5">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">
+                                <a href="website-instructor-public-profile.html">杨权</a>
+                            </h3>
+                        </div>
+                        <div class="panel-body">
+                            <div class="media">
+                                <div class="media-left">
+                                    <a href="website-instructor-public-profile.html">
+                                        <img src="../images/member1.png" alt="people" />
+                                    </a>
+                                    <div class="direction">机器学习</div>
+                                </div>
+                                <div class="media-body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet commodi delectus, excepturi
+                                        facilis in iusto magnam modi nulla numquam provident quam quis repudiandae ullam
+                                        ut.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel-footer text-right">
+                            <a href="website-instructor-public-profile.html" class="btn btn-sm btn-primary">详细介绍</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item col-xs-12 col-sm-6 col-lg-4">
+                    <div class="panel panel-default paper-shadow" data-z="0.5">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">
+                                <a href="website-instructor-public-profile.html">付星昱</a>
+                            </h3>
+                        </div>
+                        <div class="panel-body">
+                            <div class="media">
+                                <div class="media-left">
+                                    <a href="website-instructor-public-profile.html">
+                                        <img src="../images/member2.png" alt="people" />
+                                    </a>
+                                    <div class="direction">web前端</div>
+                                </div>
+                                <div class="media-body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet commodi delectus, excepturi
+                                        facilis in iusto magnam modi nulla numquam provident quam quis repudiandae ullam
+                                        ut.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel-footer text-right">
+                            <a href="website-instructor-public-profile.html" class="btn btn-sm btn-primary">详细介绍</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item col-xs-12 col-sm-6 col-lg-4">
+                    <div class="panel panel-default paper-shadow" data-z="0.5">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">
+                                <a href="website-instructor-public-profile.html">某某某</a>
+                            </h3>
+                        </div>
+                        <div class="panel-body">
+                            <div class="media">
+                                <div class="media-left">
+                                    <a href="website-instructor-public-profile.html">
+                                        <img src="../images/member3.png" alt="people" />
+                                    </a>
+                                    <div class="direction">web后端</div>
+                                </div>
+                                <div class="media-body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet commodi delectus, excepturi
+                                        facilis in iusto magnam modi nulla numquam provident quam quis repudiandae ullam
+                                        ut.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel-footer text-right">
+                            <a href="website-instructor-public-profile.html" class="btn btn-sm btn-primary">详细介绍</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item col-xs-12 col-sm-6 col-lg-4">
+                    <div class="panel panel-default paper-shadow" data-z="0.5">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">
+                                <a href="website-instructor-public-profile.html">某某某</a>
+                            </h3>
+                        </div>
+                        <div class="panel-body">
+                            <div class="media">
+                                <div class="media-left">
+                                    <a href="website-instructor-public-profile.html">
+                                        <img src="../images/member4.png" alt="people" />
+                                    </a>
+                                    <div class="direction">算法</div>
+                                </div>
+                                <div class="media-body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet commodi delectus, excepturi
+                                        facilis in iusto magnam modi nulla numquam provident quam quis repudiandae ullam
+                                        ut.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel-footer text-right">
+                            <a href="website-instructor-public-profile.html" class="btn btn-sm btn-primary">详细介绍</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item col-xs-12 col-sm-6 col-lg-4">
+                    <div class="panel panel-default paper-shadow" data-z="0.5">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">
+                                <a href="website-instructor-public-profile.html">某某某</a>
+                            </h3>
+                        </div>
+                        <div class="panel-body">
+                            <div class="media">
+                                <div class="media-left">
+                                    <a href="website-instructor-public-profile.html">
+                                        <img src="../images/member5.png" alt="people" />
+                                    </a>
+                                    <div class="direction">大数据</div>
+                                </div>
+                                <div class="media-body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet commodi delectus, excepturi
+                                        facilis in iusto magnam modi nulla numquam provident quam quis repudiandae ullam
+                                        ut.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel-footer text-right">
+                            <a href="website-instructor-public-profile.html" class="btn btn-sm btn-primary">详细介绍</a>
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+
+        </div>
+    </div>
+
+    <div class="page-section">
+        <div class="container">
+            <div class="stu_grade">2016级</div>
+            <div class="row" data-toggle="isotope">
+    
+                <div class="item col-xs-12 col-sm-6 col-lg-4">
+                    <div class="panel panel-default paper-shadow" data-z="0.5">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">
+                                <a href="website-instructor-public-profile.html">童兴格</a>
+                            </h3>
+                        </div>
+                        <div class="panel-body">
+                            <div class="media">
+                                <div class="media-left">
+                                    <a href="website-instructor-public-profile.html">
+                                        <img src="../images/member1.png" alt="people" />
+                                    </a>
+                                    <div class="direction">机器学习</div>
+                                </div>
+                                <div class="media-body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet commodi delectus, excepturi
+                                        facilis in iusto magnam modi nulla numquam provident quam quis repudiandae ullam ut.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel-footer text-right">
+                            <a href="website-instructor-public-profile.html" class="btn btn-sm btn-primary">详细介绍</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="item col-xs-12 col-sm-6 col-lg-4">
+                    <div class="panel panel-default paper-shadow" data-z="0.5">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">
+                                <a href="website-instructor-public-profile.html">柴林枫</a>
+                            </h3>
+                        </div>
+                        <div class="panel-body">
+                            <div class="media">
+                                <div class="media-left">
+                                    <a href="website-instructor-public-profile.html">
+                                        <img src="../images/member2.png" alt="people" />
+                                    </a>
+                                    <div class="direction">web前端</div>
+                                </div>
+                                <div class="media-body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet commodi delectus, excepturi
+                                        facilis in iusto magnam modi nulla numquam provident quam quis repudiandae ullam ut.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel-footer text-right">
+                            <a href="website-instructor-public-profile.html" class="btn btn-sm btn-primary">详细介绍</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="item col-xs-12 col-sm-6 col-lg-4">
+                    <div class="panel panel-default paper-shadow" data-z="0.5">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">
+                                <a href="website-instructor-public-profile.html">某某某</a>
+                            </h3>
+                        </div>
+                        <div class="panel-body">
+                            <div class="media">
+                                <div class="media-left">
+                                    <a href="website-instructor-public-profile.html">
+                                        <img src="../images/member3.png" alt="people" />
+                                    </a>
+                                    <div class="direction">web后端</div>
+                                </div>
+                                <div class="media-body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet commodi delectus, excepturi
+                                        facilis in iusto magnam modi nulla numquam provident quam quis repudiandae ullam ut.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel-footer text-right">
+                            <a href="website-instructor-public-profile.html" class="btn btn-sm btn-primary">详细介绍</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="item col-xs-12 col-sm-6 col-lg-4">
+                    <div class="panel panel-default paper-shadow" data-z="0.5">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">
+                                <a href="website-instructor-public-profile.html">某某某</a>
+                            </h3>
+                        </div>
+                        <div class="panel-body">
+                            <div class="media">
+                                <div class="media-left">
+                                    <a href="website-instructor-public-profile.html">
+                                        <img src="../images/member4.png" alt="people" />
+                                    </a>
+                                    <div class="direction">算法</div>
+                                </div>
+                                <div class="media-body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet commodi delectus, excepturi
+                                        facilis in iusto magnam modi nulla numquam provident quam quis repudiandae ullam ut.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel-footer text-right">
+                            <a href="website-instructor-public-profile.html" class="btn btn-sm btn-primary">详细介绍</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="item col-xs-12 col-sm-6 col-lg-4">
+                    <div class="panel panel-default paper-shadow" data-z="0.5">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">
+                                <a href="website-instructor-public-profile.html">某某某</a>
+                            </h3>
+                        </div>
+                        <div class="panel-body">
+                            <div class="media">
+                                <div class="media-left">
+                                    <a href="website-instructor-public-profile.html">
+                                        <img src="../images/member5.png" alt="people" />
+                                    </a>
+                                    <div class="direction">大数据</div>
+                                </div>
+                                <div class="media-body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet commodi delectus, excepturi
+                                        facilis in iusto magnam modi nulla numquam provident quam quis repudiandae ullam ut.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel-footer text-right">
+                            <a href="website-instructor-public-profile.html" class="btn btn-sm btn-primary">详细介绍</a>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+    
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+    
+                <div class="col-md-5 overview">
+                    <img src="../images/logo.png" alt="">
+                    <p>数据驱动生活.
+                        <br> 大数据创新
+                    </p>
+                    <div id="footer_clear"></div>
+                </div>
+    
+                <div class="contact col-md-4">
+                    <div class="part">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        <p>cinslab.com</p>
+                    </div>
+                    <div class="part">
+                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                        <p>pingkly@163.com</p>
+                    </div>
+                    <div class="part">
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        <p>西南石油大学(成都校区)明理楼C1101</p>
+                    </div>
+                </div>
+    
+                <div class="social-media col-md-3">
+                    <h5>follow us</h5>
+                    <a href="index.html">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                    </a>
+                    <a href="index.html">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </a>
+                    <a href="index.html">
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                    </a>
+                    <a href="index.html">
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                    </a>
+                    <a href="index.html">
+                        <i class="fa fa-google-plus" aria-hidden="true"></i>
+                    </a>
+                    <a href="index.html">
+                        <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="copyrights">
+        <div class="container">
+            <p>copyrights reserved &copy; CINS 2017</p>
+        </div>
+    </div>
+    <!-- // Footer -->
+
+    <!-- Inline Script for colors and config objects; used by various external scripts; -->
+    <script>
+        var colors = {
+            "danger-color": "#e74c3c",
+            "success-color": "#81b53e",
+            "warning-color": "#f0ad4e",
+            "inverse-color": "#2c3e50",
+            "info-color": "#2d7cb5",
+            "default-color": "#6e7882",
+            "default-light-color": "#cfd9db",
+            "purple-color": "#9D8AC7",
+            "mustard-color": "#d4d171",
+            "lightred-color": "#e15258",
+            "body-bg": "#f6f6f6"
+        };
+        var config = {
+            theme: "html",
+            skins: {
+                "default": {
+                    "primary-color": "#42a5f5"
+                }
+            }
+        };
+    </script>
+    <script src="../js/all.js"></script>
+    <script src="../js/app.js"></script>
+    <!-- scripts -->
+    <!-- jquery script -->
+    <script src="../js/jquery-3.2.1.min.js"></script>
+    <!-- global js file -->
+    <script src="../js/global.js"></script>
+    <!-- head tail js file -->
+    <script src="../js/menu_list.js"></script>
+</body>
+
+</html>
